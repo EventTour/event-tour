@@ -1,0 +1,352 @@
+@import "variables.scss";
+
+.event-purchase-page {
+  display: block;
+}
+
+.container-header-p {
+  margin-bottom: 4px;
+  //color: #12075a;
+  color: $md-color-green-500;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.event-extra-container {
+  display: block;
+  margin: 5px;
+}
+
+.accommodation-container {
+  display: block;
+  margin: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px $md-color-green-500;
+  font-size: 14px;
+}
+
+.transfer-container {
+  display: block;
+  position: relative;
+  margin: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px $md-color-green-500;
+}
+
+.additional-service-container {
+  display: block;
+  margin: 15px;
+}
+
+.event-photo-container {
+  display: inline-block;
+  position: relative;
+  padding: 4px;
+  border: $md-color-green-300 solid 1px;
+}
+
+.event-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 7px;
+}
+
+.event-description {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 7px 7px 7px 16px;
+}
+
+.event-purchase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  padding: 7px;
+  padding-left: 16px;
+  border-left: 1px solid $md-color-green-300;
+}
+
+.event-actions-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.event-info-header {
+  margin-bottom: 10px;
+  color: $md-color-green-900;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.event-info-city {
+  margin-bottom: 10px;
+  color: $md-color-green-900;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.event-info-date {
+  color: $md-color-red-500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.event-info-p {
+  margin-top: 10px;
+  color: $md-color-blue-gray-800;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.event-info-p-name {
+  margin-right: 8px;
+  color: $md-color-green-500;
+}
+
+.event-info-description {
+  margin-top: 20px;
+  color: $md-color-blue-gray-800;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.event-photo {
+  height: 300px;
+}
+
+.star-icon-event-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  padding: 1px;
+  border-radius: 50%;
+  background: rgba(255, 200, 0, .8);
+}
+
+.event-price {
+  color: $md-color-red-900;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+//.add-to-cart {
+//  width: 150px;
+//  padding: 9px;
+//  //border: 2px solid #11bc91;
+//  border-radius: 4px;
+//  outline: none;
+//  background-color: #fff;
+//  color: #11bc91;
+//  font-size: 14px;
+//  box-shadow: $md-shadow2;
+//  cursor: pointer;
+//}
+
+.add-to-cart,
+.add-to-wishlist {
+  width: 150px;
+  padding: 9px;
+  //border: 2px solid #11bc91;
+  border-radius: 4px;
+  outline: none;
+  //background-color: #fff;
+  //color: #11bc91;
+  font-size: 14px;
+  //box-shadow: $md-shadow2;
+  cursor: pointer;
+}
+
+//.add-to-cart:hover {
+//  background-color: #fff;
+//  box-shadow: $md-shadow3;
+//  opacity: .7;
+//}
+//
+//.add-to-wishlist:hover {
+//  background-color: #fff;
+//  box-shadow: $md-shadow3;
+//  opacity: .7;
+//}
+
+.remove-from-wishlist {
+  width: 150px;
+  padding: 9px;
+  border: 2px solid $md-color-red-500;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+  color: $md-color-red-500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remove-from-wishlist:hover {
+  background-color: #fff;
+  color: $md-color-red-900;
+  //opacity: .7;
+}
+
+.accommodation-item {
+  display: flex;
+  align-items: center;
+  //border-bottom: #373737 solid 1px;
+  font-size: 12px;
+}
+
+.accommodation-item-header {
+  color: $md-color-green-500;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.accommodation-item-hotel {
+  width: 220px;
+  padding: 3px 5px 3px 7px;
+  color: $md-color-green-900;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.accommodation-item-price {
+  width: 150px;
+  padding: 3px 5px 3px 7px;
+  text-align: center;
+}
+
+.accommodation-item-min-time {
+  width: 100px;
+  padding: 3px 5px 3px 7px;
+  text-align: center;
+}
+
+.purchase-btn {
+  margin-bottom: 3px;
+  margin-left: 50px;
+  padding: 5px 7px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.select-transfer-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.select-city-input {
+  margin: 0 10px;
+}
+
+.transfer-input-label {
+  display: inline-block;
+  width: 230px;
+  margin: 0 15px;
+  color: $md-color-green-500;
+  font-size: 14px;
+  text-align: right;
+}
+
+.transfer-date {
+  width: 80px;
+  color: $md-color-red-900;
+  text-align: center;
+}
+
+.select-transfer-days {
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+}
+
+.btn-days-inc {
+  width: 40px;
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid $md-color-green-500;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+  color: $md-color-green-500;
+  font-weight: 700;
+}
+
+.btn-days-inc:hover {
+  background-color: $md-color-green-500;
+  color: #fff;
+}
+
+.btn-days-inc:disabled {
+  border-color: $md-color-green-300;
+  color: $md-color-green-300;
+}
+
+.btn-days-inc:disabled:hover {
+  border-color: $md-color-green-300;
+  background-color: #fff;
+  color: $md-color-green-300;
+}
+
+.transfer-item {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+  font-size: 12px;
+}
+
+.transfer-item-header {
+  color: $md-color-green-900;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.transportTypeName {
+  width: 100px;
+}
+
+.transfer-time {
+  width: 180px;
+}
+
+.transfer-duration {
+  width: 120px;
+}
+
+.depart-city {
+  min-width: 170px;
+}
+
+.transfer-number {
+  min-width: 80px;
+}
+
+.arrival-city {
+  width: 150px;
+}
+
+.transfer-price {
+  width: 120px;
+  color: $md-color-red-900;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.transfer-btn {
+  padding: 3px 7px;
+}
+
+.additional-service-p {
+  margin: 10px 0;
+  color: $md-color-green-900;
+  font-size: 14px;
+}

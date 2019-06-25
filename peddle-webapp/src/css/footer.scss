@@ -1,0 +1,36 @@
+@import "variables.scss";
+
+.footer-container {
+  display: block;
+  background-color: $md-color-red-500;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-top: 20px;
+}
+
+.copyright {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.copyright-p {
+  color: $md-color-white;
+  font-size: 12px;
+}
+
+.footer-link {
+  margin: 0 30px 20px;
+  border-bottom: solid 1px transparent;
+  color: $md-color-white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  border-bottom: solid 1px $md-color-white;
+}

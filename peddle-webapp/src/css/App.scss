@@ -1,0 +1,17 @@
+.App {
+  min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1270px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.page-content {
+  min-height: calc(100vh - 166px);
+}

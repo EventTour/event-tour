@@ -1,0 +1,141 @@
+@import "variables.scss";
+
+.purchase-list {
+  margin: 10px;
+  border: solid 1px $md-color-green-300;
+  border-radius: 5px;
+  background-color: $md-color-green-50;
+}
+
+.purchase-list-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 48px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: $md-color-green-500;
+}
+
+.purchase-list-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .6);
+  color: $md-color-green-500;
+}
+
+.purchased-item-name {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 300px;
+  color: $md-color-green-900;
+  cursor: pointer;
+}
+
+.purchased-item-city {
+  width: 150px;
+  text-align: center;
+}
+
+.purchased-item-date {
+  width: 100px;
+  text-align: center;
+}
+
+.purchased-item-sum {
+  width: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.purchased-item-accommodation {
+  width: 80px;
+  text-align: center;
+}
+
+.purchased-item-transfer-to {
+  width: 80px;
+  text-align: center;
+}
+
+.purchased-item-transfer-from {
+  width: 80px;
+  text-align: center;
+}
+
+.btn-down {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  outline: none;
+  background-color: transparent;
+  content: ' ';
+  cursor: pointer;
+  opacity: .8;
+}
+
+.btn-down:active {
+  outline: none;
+  opacity: 1;
+}
+
+.btn-down::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("/img/icons/down.svg") 0 0 no-repeat;
+  content: ' ';
+  cursor: pointer;
+}
+
+.btn-up {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  outline: none;
+  background-color: transparent;
+  content: ' ';
+  cursor: pointer;
+  opacity: .7;
+}
+
+.btn-up::before {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+  background: url("/img/icons/down.svg") 0 0 no-repeat;
+  content: ' ';
+  cursor: pointer;
+  z-index: -1;
+}
+
+.purchased-item-detail {
+  height: 0;
+  margin-bottom: 0;
+  padding: 0 0 10px 30px;
+  color: $md-color-green-500;
+  font-size: 14px;
+  line-height: 18px;
+  visibility: hidden;
+  //transition: 2s linear;
+  //overflow: hidden;
+}
+
+.item-present {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}

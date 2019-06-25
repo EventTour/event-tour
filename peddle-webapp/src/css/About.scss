@@ -1,0 +1,39 @@
+@import "variables.scss";
+
+.about {
+  min-height: calc(100vh - 178px);
+}
+
+.about-page-root {
+  width: 444px;
+  margin-top: calc(50vh - 200px);
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 20px;
+  border: solid 1px $md-color-green-300;
+  border-radius: 20px;
+  color: $md-color-green-500;
+  //background-color: $md-color-green-50;
+  box-shadow: $md-shadow4;
+}
+
+.about-head {
+  color: $md-color-green-900;
+  font-size: 20px;
+}
+
+.about-info {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.about-goal {
+  color: $md-color-green-900;
+  font-size: 20px;
+}
+
+.about-content {
+  margin: 5px 0;
+  font-size: 16px;
+}

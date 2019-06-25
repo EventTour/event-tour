@@ -1,0 +1,25 @@
+*.class
+*.log
+# *.css
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+peddle-webapp/.stylelintcache
+.idea/
+frontend/build/
+node_modules/
+target/
+log/
+*.css
+.stylelintcache
+/src/main/resources/config.properties
+/src/main/resources/amazon.properties
+/peddle-webapp/build/
+!/src/main/resources/config.properties
+!/.idea/vcs.xml

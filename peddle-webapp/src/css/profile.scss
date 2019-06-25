@@ -1,0 +1,226 @@
+@import "variables.scss";
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-detail {
+  display: flex;
+  padding: 15px;
+}
+
+.user-photo-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-photo {
+  height: 120px;
+}
+
+.user-info-container {
+  margin-left: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-info-name {
+  color: $md-color-green-900;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.user-info-item-header {
+  color: $md-color-green-500;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.user-info-item-p {
+  color: $md-color-green-900;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.link-to-list {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0 auto;
+  border: 1px solid $md-color-green-500;
+  border-radius: 6px;
+  background-color: $md-color-green-50;
+  color: $md-color-green-500;
+  overflow: hidden;
+}
+
+.tablink {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.link-to-list {
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 4px;
+  color: $md-color-green-500;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.active-link {
+  padding: 10px;
+  background-color: $md-color-green-500;
+  color: #fff;
+}
+
+.btn-edit {
+  position: relative;
+  width: 70px;
+  height: 35px;
+  margin: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  outline: none;
+  content: ' ';
+  cursor: pointer;
+}
+
+.btn-edit:disabled {
+  cursor: default;
+  opacity: .5;
+}
+
+.btn-edit::before {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  background: url("/img/icons/edit.svg") 0 0 no-repeat;
+  content: ' ';
+  cursor: pointer;
+}
+
+.btn-save {
+  display: block;
+  position: relative;
+  width: 140px;
+  height: 35px;
+  margin: 10px 90px;
+  padding-left: 15px;
+  border-radius: 10px;
+  outline: none;
+  content: ' ';
+  cursor: pointer;
+}
+
+.btn-save:disabled {
+  cursor: default;
+  opacity: .5;
+}
+
+.btn-save::before {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  background: url("/img/icons/edit.svg") 0 0 no-repeat;
+  content: ' ';
+  cursor: pointer;
+}
+
+.edit-form-header {
+  color: $md-color-green-900;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.user-info-input-header {
+  display: block;
+  color: $md-color-green-500;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.profile-input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 9px;
+  padding-right: 19px;
+  padding-left: 19px;
+  border: 1px solid $md-color-green-500;
+  border-radius: 3px;
+  background-color: $md-color-green-50;
+  color: #434343;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.fileContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 20px;
+  color: $md-color-green-900;
+  font-size: 12px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.fileContainer [type=file] {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 15px;
+  text-align: right;
+  cursor: inherit;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.user-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.btn-upload {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  margin: 0 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  outline: none;
+  content: ' ';
+  cursor: pointer;
+}
+
+.btn-upload::before {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  background: url("/img/icons/upload.svg") 0 0 no-repeat;
+  content: ' ';
+  cursor: pointer;
+}

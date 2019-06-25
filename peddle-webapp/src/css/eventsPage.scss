@@ -1,0 +1,130 @@
+@import "variables.scss";
+
+.events-header {
+  margin: 16px;
+  color: $md-color-green-900;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.events-page {
+  display: flex;
+}
+
+.filters-container {
+  display: inline-block;
+  width: 176px;
+  height: 100%;
+  margin: 7px;
+  padding: 5px;
+  border: solid 2px $md-color-green-500;
+  border-radius: 5px;
+}
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  //height: calc(100vh - 113px);
+  padding-bottom: 88px;
+  overflow: auto;
+}
+
+.filter-label {
+  margin-bottom: 3px;
+  color: $md-color-green-500;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.filter-input {
+  width: 160px;
+  height: 25px;
+  margin-top: 2px;
+  margin-bottom: 18px;
+  border: solid 1px $md-color-green-500;
+  border-radius: 4px;
+  outline: solid 1px transparent;
+  background-color: $md-color-white;
+  color: $md-color-green-900;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  height: 30px;
+  margin-bottom: 10px;
+  border: solid 1px $md-color-green-500;
+  background-color: $md-color-green-500;
+  color: $md-color-white;
+}
+
+.btn:hover {
+  background-color: $md-color-green-500;
+  color: $md-color-white;
+  box-shadow: $md-shadow3;
+}
+
+.btn:hover:disabled {
+  border-color: $md-color-green-50;
+  background-color: $md-color-green-50;
+}
+
+.btn:active {
+  background-color: $md-color-green-900;
+  color: $md-color-white;
+  box-shadow: $md-shadow2;
+}
+
+.btn:disabled {
+  border-color: $md-color-green-50;
+  color: $md-color-green-50;
+}
+
+.nav-btn {
+  position: absolute;
+  bottom: 0;
+  min-width: 80px;
+  padding: 16px;
+  border: 3px solid $md-color-red-500;
+  border-radius: 15px;
+  outline: none;
+  background-color: $md-color-white;
+  color: $md-color-red-500;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  border: 3px solid $md-color-red-900;
+  color: $md-color-red-900;
+}
+
+.nav-btn:disabled {
+  border: 3px solid $md-color-red-50;
+  color: $md-color-red-50;
+}
+
+.nav-btn:active {
+  opacity: .8;
+}
+
+.next {
+  right: calc(50% - 70px);
+}
+
+.previous {
+  left: calc(50% - 110px);
+}
+
+.page-num {
+  position: absolute;
+  bottom: 0;
+  font-size: 9px;
+}

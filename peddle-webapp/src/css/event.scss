@@ -1,0 +1,101 @@
+@import "variables.scss";
+
+.event-item {
+  display: inline-block;
+  position: relative;
+  width: 290px;
+  margin: 4px;
+  padding-bottom: 6px;
+  transition: all .3s;
+  border: 1px solid $md-color-green-300;
+  border-radius: 6px;
+}
+
+.event-item:hover {
+  box-shadow: $md-shadow3;
+}
+
+.event-item-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 230px;
+  margin-bottom: 5px;
+  border-radius: 4px 4px 0 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+.event-item-img {
+  //min-width: 100%;
+  height: 100%;
+}
+
+.event-item-name {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 14px;
+  margin-right: 15px;
+  padding: 5px 5px 5px 10px;
+  background-color: rgba(0, 0, 0, .4);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.event-item-price {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  padding: 6px 6px 6px 15px;
+  color: $md-color-green-900;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.event-item-date {
+  margin: 8px;
+  color: $md-color-green-900;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.event-item-city {
+  margin: 8px;
+  color: $md-color-green-900;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 16px;
+}
+
+.star-icon-event {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background: rgba(255, 200, 0, .8);
+}
+
+.empty-star-icon-event {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 1px;
+  border-radius: 50%;
+  //background: rgba(0, 0, 0, .2);
+  opacity: .3;
+}
+
+.empty-star-icon-event:hover {
+  background-color: #f99d00;
+  opacity: 1;
+}
